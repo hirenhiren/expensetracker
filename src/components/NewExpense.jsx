@@ -1,13 +1,13 @@
 import ExpenseForm from "./ExpenseForm";
 
-const NewExpense = ({submittedData}) =>{
- const includeIdHandler = (...newData) =>{
-    submittedData(...newData);
+const NewExpense = ({submittedData,initialData}) =>{
+ const includeIdHandler = (newData) =>{
+    submittedData(newData);
  }
  
     return(
         
-            <ExpenseForm  forwardSubmittedData={includeIdHandler}/>
+            <ExpenseForm  forwardSubmittedData={includeIdHandler} initialData={initialData}/>
         
     );
 }

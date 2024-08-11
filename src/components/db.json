@@ -1,0 +1,32 @@
+{
+  "expenses": [
+    {
+      "id": "0.8340393363707717",
+      "ItemDT": "2024-08-04T00:00:00.000Z",
+      "ItemName": "Shirt",
+      "ItemPrice": "800",
+      "ExpenseTyp": "OtherExp"
+    },
+    {
+      "id": "0.6519952252848553",
+      "ItemDT": "2024-08-05T00:00:00.000Z",
+      "ItemName": "Mobile Phone",
+      "ItemPrice": "8000",
+      "ExpenseTyp": "OtherExp"
+    },
+    {
+      "id": "0.09940675068596083",
+      "ItemDT": "2024-08-04T00:00:00.000Z",
+      "ItemName": "Chinese",
+      "ItemPrice": "500",
+      "ExpenseTyp": "Food"
+    },
+    {
+      "id": "0.18515477054171958",
+      "ItemDT": "2024-08-04T00:00:00.000Z",
+      "ItemName": "Digene ",
+      "ItemPrice": "100",
+      "ExpenseTyp": "Medicine"
+    }
+  ]
+}
